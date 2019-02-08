@@ -1,4 +1,5 @@
 import * as React from "react";
+import TransactionHistory from "./transactionHistory";
 
 export class WalletView extends React.Component {
     constructor(props) {
@@ -16,6 +17,7 @@ export class WalletView extends React.Component {
             <button className="deposit" onClick={this.depositAmount}>Deposit</button>
             <button className="withdraw" onClick={this.withdrawAmount}>Withdraw</button>
             <h2>Balance: <span className="balance">{this.state.balance}</span></h2>
+            <TransactionHistory history={this.props.model.transactions}/>
         </div>
     }
 

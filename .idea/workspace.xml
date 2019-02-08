@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b43534e-7163-4a0a-9c82-654f959cbae6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Wallet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__tests__/components/walletView.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__tests__/wallet.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TransactionHistory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/walletView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wallet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wallet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__tests__/components/transactionHistory.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wallet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wallet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/wallet.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/wallet.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TransactionHistory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/transactionHistory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/walletView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/walletView.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +20,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Wallet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+            <state relative-caret-position="392">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/transactionHistory.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/__tests__/components/walletView.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/walletView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/__tests__/components/transactionHistory.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#0#69#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,15 +101,17 @@
         <option value="$PROJECT_DIR$/src/__tests__/transaction.test.js" />
         <option value="$PROJECT_DIR$/src/components/Wallet.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/walletView.js" />
-        <option value="$PROJECT_DIR$/src/__tests__/components/walletView.test.js" />
-        <option value="$PROJECT_DIR$/src/__tests__/wallet.test.js" />
         <option value="$PROJECT_DIR$/src/components/TransactionHistory.js" />
         <option value="$PROJECT_DIR$/src/Wallet.js" />
+        <option value="$PROJECT_DIR$/src/__tests__/wallet.test.js" />
+        <option value="$PROJECT_DIR$/src/__tests__/components/walletView.test.js" />
+        <option value="$PROJECT_DIR$/src/components/walletView.js" />
+        <option value="$PROJECT_DIR$/src/components/transactionHistory.js" />
+        <option value="$PROJECT_DIR$/src/__tests__/components/transactionHistory.test.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -76,6 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -92,26 +138,12 @@
               <item name="wallet" type="b2602c69:ProjectViewProjectNode" />
               <item name="wallet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wallet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wallet" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wallet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wallet" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -128,7 +160,9 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -150,62 +184,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.Wallet.#withdraw.expects to raise an exception when balance is less than the withdraw amount">
-    <configuration name="Wallet (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.TransactionHistory">
+    <configuration name="TransactionHistory" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/__tests__/wallet.test.js" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/components/transactionHistory.test.js" />
       <test-names>
-        <test-name value="Wallet" />
+        <test-name value="TransactionHistory" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="WalletView" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/__tests__/components/walletView.test.js" />
-      <test-names>
-        <test-name value="WalletView" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="WalletView.updates balance when deposit button is clicked" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="TransactionHistory.'expects to render a table component with classname transaction-list" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/__tests__/components/walletView.test.js" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/components/transactionHistory.test.js" />
       <test-names>
-        <test-name value="WalletView" />
-        <test-name value="updates balance when deposit button is clicked" />
+        <test-name value="TransactionHistory" />
+        <test-name value="'expects to render a table component with classname transaction-list" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="WalletView.updates balance when withdraw button is clicked" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="TransactionHistory.'expects to render a table component with one deposit transaction" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/__tests__/components/walletView.test.js" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/components/transactionHistory.test.js" />
       <test-names>
-        <test-name value="WalletView" />
-        <test-name value="updates balance when withdraw button is clicked" />
+        <test-name value="TransactionHistory" />
+        <test-name value="'expects to render a table component with one deposit transaction" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Wallet.#withdraw.expects to raise an exception when balance is less than the withdraw amount" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Wallet.#addTransaction.expects to display one transaction when a withdrawal is made on the wallet" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
@@ -215,8 +236,23 @@
       <test-file value="$PROJECT_DIR$/src/__tests__/wallet.test.js" />
       <test-names>
         <test-name value="Wallet" />
-        <test-name value="#withdraw" />
-        <test-name value="expects to raise an exception when balance is less than the withdraw amount" />
+        <test-name value="#addTransaction" />
+        <test-name value="expects to display one transaction when a withdrawal is made on the wallet" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Wallet.#addTransaction.expects to display two transaction when a deposit and a withdrawal is made on the wallet" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/wallet.test.js" />
+      <test-names>
+        <test-name value="Wallet" />
+        <test-name value="#addTransaction" />
+        <test-name value="expects to display two transaction when a deposit and a withdrawal is made on the wallet" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -235,11 +271,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.Wallet.#withdraw.expects to raise an exception when balance is less than the withdraw amount" />
-        <item itemvalue="Jest.WalletView" />
-        <item itemvalue="Jest.WalletView.updates balance when withdraw button is clicked" />
-        <item itemvalue="Jest.WalletView.updates balance when deposit button is clicked" />
-        <item itemvalue="Jest.Wallet (1)" />
+        <item itemvalue="Jest.TransactionHistory" />
+        <item itemvalue="Jest.TransactionHistory.'expects to render a table component with one deposit transaction" />
+        <item itemvalue="Jest.TransactionHistory.'expects to render a table component with classname transaction-list" />
+        <item itemvalue="Jest.Wallet.#addTransaction.expects to display two transaction when a deposit and a withdrawal is made on the wallet" />
+        <item itemvalue="Jest.Wallet.#addTransaction.expects to display one transaction when a withdrawal is made on the wallet" />
       </list>
     </recent_temporary>
   </component>
@@ -255,51 +291,60 @@
       <updated>1549532254746</updated>
       <workItem from="1549532256166" duration="6762000" />
       <workItem from="1549541757438" duration="57000" />
+      <workItem from="1549541818953" duration="4628000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1549541990700</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549541990700</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WalletView - 2019.02.07 at 17h 00m 32s.xml">
-      <configuration name="WalletView" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="TransactionHistory_'expects_to_render_a_table_component_with_one_deposit_transaction - 2019.02.08 at 11h 39m 14s.xml">
+      <configuration name="TransactionHistory.'expects to render a table component with one deposit transaction" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="WalletView - 2019.02.07 at 17h 00m 47s.xml">
-      <configuration name="WalletView" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="TransactionHistory_'expects_to_render_a_table_component_with_one_deposit_transaction - 2019.02.08 at 11h 45m 28s.xml">
+      <configuration name="TransactionHistory.'expects to render a table component with one deposit transaction" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="WalletView - 2019.02.07 at 17h 00m 51s.xml">
-      <configuration name="WalletView" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="TransactionHistory_'expects_to_render_a_table_component_with_one_deposit_transaction - 2019.02.08 at 11h 49m 27s.xml">
+      <configuration name="TransactionHistory.'expects to render a table component with one deposit transaction" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="WalletView_updates_balance_when_deposit_button_is_clicked - 2019.02.07 at 17h 02m 57s.xml">
-      <configuration name="WalletView.updates balance when deposit button is clicked" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="TransactionHistory_'expects_to_render_a_table_component_with_one_deposit_transaction - 2019.02.08 at 11h 49m 47s.xml">
+      <configuration name="TransactionHistory.'expects to render a table component with one deposit transaction" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="WalletView_updates_balance_when_deposit_button_is_clicked - 2019.02.07 at 17h 04m 30s.xml">
-      <configuration name="WalletView.updates balance when deposit button is clicked" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="TransactionHistory_'expects_to_render_a_table_component_with_one_deposit_transaction - 2019.02.08 at 11h 50m 43s.xml">
+      <configuration name="TransactionHistory.'expects to render a table component with one deposit transaction" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="WalletView_updates_balance_when_withdraw_button_is_clicked - 2019.02.07 at 17h 08m 19s.xml">
-      <configuration name="WalletView.updates balance when withdraw button is clicked" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="TransactionHistory_'expects_to_render_a_table_component_with_one_deposit_transaction - 2019.02.08 at 11h 53m 13s.xml">
+      <configuration name="TransactionHistory.'expects to render a table component with one deposit transaction" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="WalletView - 2019.02.07 at 17h 09m 17s.xml">
-      <configuration name="WalletView" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="TransactionHistory_'expects_to_render_a_table_component_with_one_deposit_transaction - 2019.02.08 at 11h 53m 44s.xml">
+      <configuration name="TransactionHistory.'expects to render a table component with one deposit transaction" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Wallet_#withdraw_expects_to_raise_an_exception_when_balance_is_less_than_the_withdraw_amount - 2019.02.07 at 17h 15m 15s.xml">
-      <configuration name="Wallet.#withdraw.expects to raise an exception when balance is less than the withdraw amount" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="TransactionHistory_'expects_to_render_a_table_component_with_one_deposit_transaction - 2019.02.08 at 12h 17m 00s.xml">
+      <configuration name="TransactionHistory.'expects to render a table component with one deposit transaction" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Wallet_#withdraw_expects_to_raise_an_exception_when_balance_is_less_than_the_withdraw_amount - 2019.02.07 at 17h 18m 59s.xml">
-      <configuration name="Wallet.#withdraw.expects to raise an exception when balance is less than the withdraw amount" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="TransactionHistory_'expects_to_render_a_table_component_with_one_deposit_transaction - 2019.02.08 at 12h 17m 35s.xml">
+      <configuration name="TransactionHistory.'expects to render a table component with one deposit transaction" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Wallet_#withdraw_expects_to_raise_an_exception_when_balance_is_less_than_the_withdraw_amount - 2019.02.07 at 17h 20m 51s.xml">
-      <configuration name="Wallet.#withdraw.expects to raise an exception when balance is less than the withdraw amount" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="TransactionHistory_'expects_to_render_a_table_component_with_one_deposit_transaction - 2019.02.08 at 12h 17m 50s.xml">
+      <configuration name="TransactionHistory.'expects to render a table component with one deposit transaction" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6819000" />
+    <option name="totallyTimeSpent" value="11447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info id="npm" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" weight="0.21778585" />
+      <window_info id="npm" order="1" side_tool="true" weight="0.3296875" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.21699819" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32896176" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -307,7 +352,7 @@
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32123798" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32123798" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -318,8 +363,8 @@
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info id="npm" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.21800947" />
+      <window_info id="npm" order="1" side_tool="true" weight="0.3296875" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.21699819" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32896176" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -327,7 +372,7 @@
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32123798" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32123798" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -339,6 +384,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/setupTests.js">
@@ -354,6 +403,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/__tests__/wallet.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="75" column="3" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wallet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -363,39 +426,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/__tests__/components/walletView.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="34" column="69" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="84">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/walletView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="431">
+          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TransactionHistory.js">
+    <entry file="file://$PROJECT_DIR$/src/components/transactionHistory.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="196">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/__tests__/wallet.test.js">
+    <entry file="file://$PROJECT_DIR$/src/__tests__/components/transactionHistory.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="18" column="83" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wallet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+        <state relative-caret-position="352">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
