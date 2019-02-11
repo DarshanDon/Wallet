@@ -1,0 +1,16 @@
+image: "ruby:2.6.0"
+
+cache:
+  paths:
+    - vendor/ruby
+
+before_script:
+  - ruby -v
+  - gem install bundler
+  - bundle install -j $(nproc) --path vendor
+
+rails:
+  script:
+    - bundle exec rake db:drop db:create db:migrate
+    - bundle exec rake db:seed
+    - bundle exec rake
