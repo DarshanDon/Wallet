@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 describe WalletsController do
+
 	describe '#deposit' do
 		let(:wallet) { FactoryBot.create(:wallet) }
 
@@ -22,6 +23,22 @@ describe WalletsController do
 
 			response_data = JSON.parse(response.body)
 			expect(response_data['error']).to eq('Invalid amount')
+		end
+	end
+
+	describe "#withdraw" do
+		let(:wallet) { FactoryBot.create(:wallet, balance: 100) }
+
+		it 'should withdraw amount from the wallet' do
+			post :withdraw, params: { id: wallet.id, amount: 100 }
+			expect(response).to be_ok
+
+			wallet.reload
+			expect(wallet.balance).to eq(0)
+
+			response_data = JSON.parse(response.body)
+			expect(response_data['id']).to eq(wallet.id)
+			expect(response_data['balance']).to eq(wallet.balance)
 		end
 	end
 end

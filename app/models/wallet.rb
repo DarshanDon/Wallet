@@ -6,4 +6,9 @@ class Wallet < ApplicationRecord
 		self.balance += amount
 		save
 	end
+
+	def withdraw(amount)
+		self.balance -= amount
+		save
+	end
 end

@@ -9,4 +9,10 @@ class WalletsController < ApplicationController
 		end
 		render json: wallet, status: 200
 	end
+
+	def withdraw
+		wallet = Wallet.find(params[:id])
+		wallet.withdraw(params[:amount].to_f)
+		render json: wallet, status: 200
+	end
 end
