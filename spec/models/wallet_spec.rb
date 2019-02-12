@@ -21,4 +21,10 @@ describe 'Wallet' do
 					    .and raise_exception 'Invalid amount'
 		end
 	end
+
+	describe '#withdraw' do
+		it 'should withdraw amount from the wallet' do
+			expect { wallet.withdraw(60) }.to change { wallet.balance }.by(-60)
+		end
+	end
 end
