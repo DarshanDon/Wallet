@@ -40,5 +40,13 @@ describe WalletsController do
 			expect(response_data['id']).to eq(wallet.id)
 			expect(response_data['balance']).to eq(wallet.balance)
 		end
+
+		it 'should return error when trying to withdraw more amount than the wallet balance' do
+			post :withdraw, params: { id: wallet.id, amount: 1000 }
+			expect(response).to be_bad_request
+
+			response_data = JSON.parse(response.body)
+			expect(response_data['error']).to eq('Insufficient Balance')
+		end
 	end
 end

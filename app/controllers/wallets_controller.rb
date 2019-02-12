@@ -12,7 +12,11 @@ class WalletsController < ApplicationController
 
 	def withdraw
 		wallet = Wallet.find(params[:id])
-		wallet.withdraw(params[:amount].to_f)
+		begin
+			wallet.withdraw(params[:amount].to_f)
+		rescue
+			render json: { error: 'Insufficient Balance' }, status: 400 and return
+		end
 		render json: wallet, status: 200
 	end
 end
