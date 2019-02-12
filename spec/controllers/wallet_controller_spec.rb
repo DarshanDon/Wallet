@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe WalletsController do
 	describe '#deposit' do
-		let(:wallet) { Wallet.create({ balance: 0 }) }
+		let(:wallet) { FactoryBot.create(:wallet) }
 
 		it 'should deposit amount to the wallet' do
 			post :deposit, params: { id: wallet.id, amount: 100 }
