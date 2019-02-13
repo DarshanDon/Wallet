@@ -30,5 +30,11 @@ describe 'Wallet' do
 		it 'should not withdraw and throw an error when the balance is less than the withdrawal amount' do
 			expect { wallet.withdraw(1000) }.to not_change { wallet.balance }.and raise_exception 'Insufficient Balance'
 		end
+
+		it 'should not withdraw on a negative amount and throws an error' do
+			expect { wallet.withdraw(-100) }
+				.to not_change { wallet.balance }
+					    .and raise_exception 'Invalid amount'
+		end
 	end
 end
