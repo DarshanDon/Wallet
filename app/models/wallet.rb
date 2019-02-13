@@ -9,7 +9,7 @@ class Wallet < ApplicationRecord
 
 	def withdraw(amount)
 		raise 'Invalid amount' if amount < 0
-		raise 'Insufficient Balance' if amount > self.balance
+		raise 'Insufficient balance' if amount > self.balance
 		self.balance -= amount
 		save
 	end

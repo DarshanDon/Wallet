@@ -46,7 +46,7 @@ describe WalletsController do
 			expect(response).to be_bad_request
 
 			response_data = JSON.parse(response.body)
-			expect(response_data['error']).to eq('Insufficient Balance')
+			expect(response_data['error']).to eq('Insufficient balance')
 		end
 
 		it 'should return error when trying to withdraw negative amount' do
