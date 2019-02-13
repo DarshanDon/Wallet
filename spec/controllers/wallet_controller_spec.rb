@@ -48,5 +48,13 @@ describe WalletsController do
 			response_data = JSON.parse(response.body)
 			expect(response_data['error']).to eq('Insufficient Balance')
 		end
+
+		it 'should return error when trying to withdraw negative amount' do
+			post :withdraw, params: { id: wallet.id, amount: -100 }
+			expect(response).to be_bad_request
+
+			response_data = JSON.parse(response.body)
+			expect(response_data['error']).to eq('Invalid amount')
+		end
 	end
 end
