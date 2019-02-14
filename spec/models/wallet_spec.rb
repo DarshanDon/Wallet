@@ -11,8 +11,10 @@ describe 'Wallet' do
 	end
 
 	describe "#deposit" do
-		it 'should deposit amount to the wallet' do
+		it 'should deposit amount to the wallet and add a corresponding transaction' do
 			expect { wallet.deposit(100) }.to change { wallet.balance }.by(100)
+			expect(wallet.transactions.size).to eq(1)
+			expect(wallet.transactions.first.amount).to eq(100)
 		end
 
 		it 'should not deposit on a negative amount and throws an error' do

@@ -1,4 +1,5 @@
 class Transaction < ApplicationRecord
-	validates :wallet_id, presence: true
+	belongs_to :wallet
+	validates :wallet, presence: true
 	validates :amount, presence: true
 end

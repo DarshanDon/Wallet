@@ -2,6 +2,25 @@ require 'rails_helper'
 
 describe WalletsController do
 
+	describe "#show" do
+		let(:wallet) { FactoryBot.create(:wallet) }
+		it 'should return a single wallet' do
+			get :show, params: { id: wallet.id }
+			expect(response).to be_ok
+			actual = JSON.parse(response.body)
+			expect(actual['id']).to eq(wallet.id)
+			expect(actual['balance']).to eq(wallet.balance)
+		end
+	end
+
+	describe "#new" do
+		it 'should create a new wallet' do
+			get :new
+			expect(response).to be_ok
+
+		end
+	end
+
 	describe '#deposit' do
 		let(:wallet) { FactoryBot.create(:wallet) }
 
