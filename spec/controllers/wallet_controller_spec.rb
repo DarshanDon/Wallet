@@ -13,14 +13,6 @@ describe WalletsController do
 		end
 	end
 
-	describe "#new" do
-		it 'should create a new wallet' do
-			get :new
-			expect(response).to be_ok
-
-		end
-	end
-
 	describe '#deposit' do
 		let(:wallet) { FactoryBot.create(:wallet) }
 
