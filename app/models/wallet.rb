@@ -5,14 +5,15 @@ class Wallet < ApplicationRecord
 	def deposit(amount)
 		raise 'Invalid amount' if amount < 0
 		self.balance += amount
-		save
 		Transaction.create({ amount: amount, wallet: self })
+		save
 	end
 
 	def withdraw(amount)
 		raise 'Invalid amount' if amount < 0
 		raise 'Insufficient balance' if amount > self.balance
 		self.balance -= amount
+		Transaction.create({ amount: amount, wallet: self })
 		save
 	end
 end
