@@ -10,4 +10,6 @@ Rails.application.routes.draw do
 	# 	post :deposit
 	# 	post :withdraw
 	# end
+
+	get 'wallets/:id/transactions' => 'transactions#index'
 end
