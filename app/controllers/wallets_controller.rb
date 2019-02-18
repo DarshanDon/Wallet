@@ -1,15 +1,10 @@
 class WalletsController < ApplicationController
 
-	before_action :load_wallet, only: [:show, :deposit, :withdraw]
+	before_action :load_wallet, only: [:deposit, :withdraw]
 
 	def show
-		render json: @wallet
+		render json: Wallet.find(params[:id])
 	end
-
-	#
-	# def balance
-	# 	render json: @wallet, status: 200
-	# end
 
 	def deposit
 		begin
@@ -32,6 +27,6 @@ class WalletsController < ApplicationController
 	private
 
 	def load_wallet
-		@wallet = Wallet.find(params[:id])
+		@wallet = Wallet.find(params[:wallet_id])
 	end
 end

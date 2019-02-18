@@ -5,7 +5,7 @@ describe TransactionsController do
 	it 'should return all transactions of wallet' do
 		wallet = create(:wallets_with_transactions)
 
-		get :index, params: { id: wallet.id }
+		get :index, params: { wallet_id: wallet.id }
 		expect(response).to be_ok
 
 		response_data = JSON.parse(response.body)
